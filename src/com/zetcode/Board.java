@@ -22,7 +22,7 @@ public class Board extends JPanel implements ActionListener {
     private final int B_HEIGHT = 800;
     private final int DOT_SIZE = 10;
     private final int ALL_DOTS = 900;
-    private InGamePannel timepannel;
+    private InGamePannel timepannel;//게임실행시간 패널 추가
 
     //B_WIDTH,B_HEIGHT에 따라 랜덤값 생성
     private final int RAND_POS = (int) Math.ceil((double) Math.min(B_WIDTH, B_HEIGHT - DOT_SIZE) / DOT_SIZE);
